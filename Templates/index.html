@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +36,7 @@
       path.push([lat, lon]);
 
       if (path.length > 1) {
-        const polyline = L.polyline(path, { color: 'red' }).addTo(map);
+        L.polyline(path, { color: 'red' }).addTo(map);
       }
 
       map.setView([lat, lon], 16);
